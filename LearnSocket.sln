@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UDPClient", "UDPClient\UDPC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UDPServer", "UDPServer\UDPServer.csproj", "{1B880176-BFDF-4593-BD24-DA0E4A1BA04F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UDPMulticastClient", "UDPMulticastClient\UDPMulticastClient.csproj", "{97407CF6-9DDC-401C-AC02-1FD02CB01A70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UDPMulticastServer", "UDPMulticastServer\UDPMulticastServer.csproj", "{79CA964C-86EA-4E5D-8A00-61FAE1F4305B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{1B880176-BFDF-4593-BD24-DA0E4A1BA04F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B880176-BFDF-4593-BD24-DA0E4A1BA04F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B880176-BFDF-4593-BD24-DA0E4A1BA04F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97407CF6-9DDC-401C-AC02-1FD02CB01A70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97407CF6-9DDC-401C-AC02-1FD02CB01A70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97407CF6-9DDC-401C-AC02-1FD02CB01A70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97407CF6-9DDC-401C-AC02-1FD02CB01A70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79CA964C-86EA-4E5D-8A00-61FAE1F4305B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79CA964C-86EA-4E5D-8A00-61FAE1F4305B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79CA964C-86EA-4E5D-8A00-61FAE1F4305B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79CA964C-86EA-4E5D-8A00-61FAE1F4305B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
